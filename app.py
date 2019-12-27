@@ -34,24 +34,7 @@ def main():
         st.title("Local Language Translation")
         translation()
 
-"""
-def download_fi():
-    filename = st.text_input('Enter a file path:')
-    try:
-        data=pd.read_excel(filename)
-        #st.write("The Sample Data is as follows:")
-        #st.write(data.head())
-        #st.write("The columns are:")
-        #abc=data.columns
-        #st.write(data.columns)
-        #with open(filename) as input:
-        #    st.text(input.read())
-    except FileNotFoundError:
-        st.error('File not found.')
-        data=pd.DataFrame()
-    return data
- 
-"""
+
 
 
 def file_chooser():
@@ -66,20 +49,9 @@ def file_chooser():
         data=pd.DataFrame()
         #st.error('Unable to Load the selected file.Please choose another!!')
     return data
-
-"""def file_selector(folder_path='.'):
-    filenames = os.listdir(folder_path)
-    selected_filename = st.selectbox('Select a file', filenames)
-    return os.path.join(folder_path, selected_filename)
-
-"""
-    
+ 
 def show_language_inst():
     st.write("first upload the file usign the file chooser")
-
-
-
-
 
 
 def translation():
