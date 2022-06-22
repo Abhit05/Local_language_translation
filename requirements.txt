@@ -1,5 +1,5 @@
 googletrans==2.4.0
-numpy==1.18.0
+numpy==1.22.0
 pandas==0.25.3
 streamlit==0.52.2
 Unidecode==1.1.1
